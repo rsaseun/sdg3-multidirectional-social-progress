@@ -12,10 +12,10 @@ The paper asks four questions about the social dimensions of progress towards th
 
 | Research question | Method | Module |
 |---|---|---|
-| RQ1. How do social deprivations combine across countries? | Country-level **Alkire–Foster counting** of 11 indicators in six capability domains (regional-median cutoffs, k = 1/3, nested equal weights), H, A, M0, M1, domain contributions, co-deprivation lift, 2,000-resample bootstrap and cutoff/weight sensitivity | `analysis.social_deprivation` |
-| RQ2. In which directions do social dimensions relate to the SDG 3 targets? | **Directional association matrix**: partial Spearman correlations (net of log GDP per capita) for 11 × 10 indicator–target pairs, Benjamini–Hochberg q < 0.10 and ≥ 90% bootstrap sign stability → convergent / divergent / undetermined; three sensitivity specifications | `analysis.directional_matrix` |
-| RQ3. Does deprivation matter more for countries furthest behind? | **Quantile regression** (τ = 0.1–0.9) of mean target attainment on the deprivation score, by target family and by domain, with 1,000 paired bootstrap resamples | `analysis.quantile_models` |
-| RQ4. Which policy entry points follow? | **Gap-weighted multi-target leverage** by country and domain; SDG 1.2-style **halving scenario** using the quantile slope at each country's conditional position | `analysis.policy_leverage` |
+| How do social deprivations combine across countries? | Country-level **Alkire–Foster counting** of 11 indicators in six capability domains (regional-median cutoffs, k = 1/3, nested equal weights), H, A, M0, M1, domain contributions, co-deprivation lift, 2,000-resample bootstrap and cutoff/weight sensitivity | `analysis.social_deprivation` |
+| In which directions do social dimensions relate to the SDG 3 targets? | **Directional association matrix**: partial Spearman correlations (net of log GDP per capita) for 11 × 10 indicator–target pairs, Benjamini–Hochberg q < 0.10 and ≥ 90% bootstrap sign stability → convergent / divergent / undetermined; three sensitivity specifications | `analysis.directional_matrix` |
+| Does deprivation matter more for countries furthest behind? | **Quantile regression** (τ = 0.1–0.9) of mean target attainment on the deprivation score, by target family and by domain, with 1,000 paired bootstrap resamples | `analysis.quantile_models` |
+| Which policy entry points follow? | **Gap-weighted multi-target leverage** by country and domain; SDG 1.2-style **halving scenario** using the quantile slope at each country's conditional position | `analysis.policy_leverage` |
 
 Target attainment uses the target (green) and red thresholds and lower bounds of the Sustainable Development Report 2026.
 No composite health index is constructed.
