@@ -1,23 +1,23 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "sdg3-multidirectional-social-progress: code and data for 'Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa"
+message: If you use this software, please cite it as below.
+title: sdg3-multidirectional-social-progress: code and data for 'Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa
 version: 1.0.0
 date-released: 2026-11-15
 license: MIT
-repository-code: "https://github.com/rsaseun/sdg3-multidirectional-social-progress"
+repository-code: https://github.com/rsaseun/sdg3-multidirectional-social-progress
 authors:
  - family-names: Raji
     given-names: Saheed A.
-    orcid: "https://orcid.org/0000-0002-5890-5414"
+    orcid: https://orcid.org/0000-0002-5890-5414
   - family-names: Oladimeji
     given-names: Abolade
-    orcid: "https://orcid.org/0000-0003-2028-2191"
+    orcid: https://orcid.org/0000-0003-2028-2191
   - family-names: Demehin
     given-names: Michael
-    orcid: "https://orcid.org/0000-0002-2713-9219"
+    orcid: https://orcid.org/0000-0002-2713-9219
   - family-names: Wunude
     given-names: Emmanuel
-    orcid: "https://orcid.org/0000-0003-2246-0414"
+    orcid: https://orcid.org/0000-0003-2246-0414
 keywords:
   - Sustainable Development Goal 3
   - social determinants of health
@@ -27,7 +27,7 @@ keywords:
   - Sub-Saharan Africa
 preferred-citation:
   type: article
-  title: "Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa"
+  title: Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa
   authors:
     - family-names: Raji
     given-names: Saheed A.
@@ -36,8 +36,7 @@ preferred-citation:
     - family-names: Demehin
     given-names: Michael
   - family-names: Wunude
-    given-names: Emmanuel
-    orcid: "https://orcid.org/0000-0003-2246-0414"
+    given-names: Emmanuel    
   journal: "SN Social Sciences"
   status: submitted
   year: 2026
