@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "sdg3-multidirectional-social-progress: code and data for 'Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa'"
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+repository-code: "https://github.com/<your-username>/sdg3-multidirectional-social-progress"
+authors:
+  - family-names: "Raji"
+    given-names: "Saheed A."
+    orcid: "https://orcid.org/0000-0002-5890-5414"
+keywords:
+  - Sustainable Development Goal 3
+  - social determinants of health
+  - multidimensional deprivation
+  - Alkire-Foster
+  - quantile regression
+  - Sub-Saharan Africa
+preferred-citation:
+  type: article
+  title: "Social progress in many directions: multidimensional deprivation, divergent pathways and policy entry points for the health Sustainable Development Goal in Sub-Saharan Africa"
+  authors:
+    - family-names: "Raji"
+      given-names: "Saheed A."
+  journal: "SN Social Sciences"
+  status: submitted
+  year: 2026

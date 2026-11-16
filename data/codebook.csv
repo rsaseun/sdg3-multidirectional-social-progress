@@ -1,0 +1,25 @@
+code,label,unit,role,source,missing_countries
+POP_M,Population,millions,Population weight,UN DESA / UNFPA,0
+GDPPC,GDP per capita (PPP),international $ (PPP),Control (log-transformed),IMF / World Bank,0
+URBAN,Urban population,% population,Control (sensitivity),World Bank WDI,0
+POV,Extreme poverty,% below US$3.00/day (2021 PPP),Social indicator – Material living standards (higher is worse),World Bank Poverty and Inequality Platform,1
+FIES,Food insecurity,% moderate or severe (FIES),Social indicator – Material living standards (higher is worse),FAO (SDG 2.1.2),4
+FSCH,Female schooling,"mean years, women 25+",Social indicator – Education (higher is better),UNDP HDR 2025,1
+CHILDMAR,Child marriage,% women 20–24 married before 18,Social indicator – Gender equity and autonomy (higher is worse),UNICEF (SDG 5.3.1),5
+SIGI,Discriminatory social institutions,SIGI score (0–100),Social indicator – Gender equity and autonomy (higher is worse),OECD SIGI 2023,9
+GINI,Income inequality,Gini index,Social indicator – Distribution and work (higher is worse),World Bank WDI,2
+UNEMP,Unemployment,% labour force,Social indicator – Distribution and work (higher is worse),ILO modelled estimates (WDI),2
+EXCL_EPR,Politically excluded groups,% population (EPR),Social indicator – Voice and inclusion (higher is worse),Ethnic Power Relations,0
+EXCL_VDEM,Exclusion by social group,V-Dem index (0–1),Social indicator – Voice and inclusion (higher is worse),V-Dem,0
+TRUST,Interpersonal and institutional trust,% trusting,Social indicator – Social cohesion and care (higher is better),Afrobarometer Round 9,4
+WATERCOLL,Water collection by women and girls,% households,Social indicator – Social cohesion and care (higher is worse),World Bank / WHO–UNICEF JMP,0
+MMR,Maternal mortality (SDG 3.1.1),"per 100,000 live births","SDG 3 target; target 70, red 140, lower bound 814",WHO et al.,0
+SBA,Skilled birth attendance (SDG 3.1.2),% births,"SDG 3 target; target 98, red 90, lower bound 23",UNICEF,0
+U5MR,Under-five mortality (SDG 3.2.1),"per 1,000 live births","SDG 3 target; target 25, red 50, lower bound 130",UN IGME,0
+NMR,Neonatal mortality (SDG 3.2.2),"per 1,000 live births","SDG 3 target; target 12, red 18, lower bound 40",UN IGME,0
+HIV,HIV incidence (SDG 3.3.1),"per 1,000 uninfected","SDG 3 target; target 0.2, red 1, lower bound 5.5",UNAIDS,0
+TB,Tuberculosis incidence (SDG 3.3.2),"per 100,000","SDG 3 target; target 10, red 75, lower bound 561",WHO,0
+FP,Family planning (modern methods) (SDG 3.7.1),% women with demand,"SDG 3 target; target 80, red 60, lower bound 30",UN DESA,1
+ABR,Adolescent births (SDG 3.7.2),"per 1,000 women 15–19","SDG 3 target; target 25, red 50, lower bound 140",WHO / UN DESA,0
+SCI,UHC service coverage (SDG 3.8.1),index (0–100),"SDG 3 target; target 80, red 60, lower bound 38",WHO,0
+DTP3,DTP3 immunisation (SDG 3.b.1),% infants,"SDG 3 target; target 90, red 80, lower bound 41",WHO–UNICEF,0
